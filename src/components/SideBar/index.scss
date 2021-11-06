@@ -1,0 +1,30 @@
+.header {
+    width: 200px;
+    background-color: #909090;
+    height: 100vh;
+    padding: 10px 20px;
+    &-title {
+        a {
+            text-decoration: none;
+            color: red;
+        }
+        .active {
+            color: #343539;
+        }
+    }
+    &-list {
+        list-style: none;
+        padding: 0;
+        &_item {
+            padding: 5px 0;
+            a {
+                text-decoration: none;
+                color: aliceblue;
+                font-weight: 700;
+            }
+            .active {
+                color: #343539;
+            }
+        }
+    }
+}
